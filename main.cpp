@@ -15,6 +15,11 @@
 
 using namespace std;
 
+void solve()
+{
+	
+}
+
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -22,8 +27,6 @@ int main()
 	int t;
 	cin >> t;
 	while(t--)
-	{
-		
-	}
+		solve();
 	return 0;
 }

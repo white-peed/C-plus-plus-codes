@@ -27,8 +27,8 @@ int main()
 	while(i != 1)
 	{
 		i = B[i];
-		A.insert(A.begin(),i);
+		A.pb(i);
 	}
-	ff(i,0,A.size()-1)	cout << A[i] << " ";
+	fb(i,A.size()-1, 0)	cout << A[i] << " ";
 	return 0;
 }

@@ -26,8 +26,8 @@ int main()
 	lli m = 0;
 	ff(i,1,n-1)
 		m = max(m,A[i] - A[i-1]);
-	m = max(2*A[0],m);
+	m = max(2*(A[0]-0),m);
 	m = max(m, 2*(l - A[n-1]));
-	cout << m/2.00; 
+	cout <<fixed << setprecision(16) << m/2.00; 
 	return 0;
 }
