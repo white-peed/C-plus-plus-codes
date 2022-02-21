@@ -15,6 +15,6 @@ using namespace std;
 
 int main()
 {
-	ff(i,1,100000)	cout << i << " ";
+	ff(i,1,100)	cout << i << " ";
 	return 0;
 }
